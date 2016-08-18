@@ -11,7 +11,7 @@ function setup() {
 
   playerSprite = createSprite(width / 2, height - 60, 50, 100);
   playerSprite.addAnimation("running", "assets/runner0001.png", "assets/runner0006.png");
-  playerSprite.setCollider("rectangle", 0,0, 45, 100);
+  playerSprite.setCollider("rectangle", 0,0, 30, 95);
 
 
   birds = new Group();
@@ -68,6 +68,8 @@ function draw() {
     if (poops[h].collide(playerSprite)) {
       hit = true;
       poopedOn();
+    } else {
+      hit = false;
     }
     
     // check if poop is alive
