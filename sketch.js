@@ -27,6 +27,7 @@ function showslide(n) {
 // }, 5000);
 
 var myFirepit = document.getElementById('fire-pit');
+myFirepit.style.cursor = "pointer";
 
 var isFirepitClickable = true;
 
@@ -51,4 +52,15 @@ myFirepit.addEventListener('click', function(event){
 		
 		isFirepitClickable = false;
 	}
+});
+
+myFirepit.addEventListener('mouseover', function(event){
+	var firepit = document.getElementById('fire-pit');
+	firepit.style.backgroundColor = 'rgba(0,0,0,0.5)';
+
+});
+
+myFirepit.addEventListener('mouseout', function(event){
+	var firepit = document.getElementById('fire-pit');
+	firepit.style.backgroundColor = 'rgba(0,0,0,0)';
 });
