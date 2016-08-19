@@ -6,6 +6,7 @@ h1 {
 }
 a {
 	color: rgb(255,100,100);
+	font-size: 30px;
 	text-decoration: none;
 		transition: color .2s ease .5s;
 }
@@ -78,10 +79,7 @@ a: hover {
 
 	transition: background-color .5s ease-in-out .2s;
 }
-/*#flames2:hover {
-		background-color: rgba(0,0,0,0.5);
 
-}*/
 @keyframes movingFire2 {
 	0% {
 		transform: rotate(0deg);
@@ -107,13 +105,6 @@ a: hover {
 	transition: background-color .5s ease-in-out .2s;
 
 }
-
-
-/*#fire-pit:hover {
-		color: rgba(0,0,0,0.5);
-		background-color: rgba(0,0,0,0.5);
-}*/
-
 .slides {
    position: absolute;
    /*top: 0;*/
@@ -138,15 +129,18 @@ a: hover {
 .text-container {
 	position: fixed;
 	text-align: center;
-	width: 97vw;
+	width: 95vw;
 	margin-top: 30vh;
 	color: white;
-	font-size: 24px;
+	font-size: 30px;
 }
 #pp {
 	position: absolute;
 	width: 35vw;
 	margin-left: 30vw;
 	margin-top: 70px;
+}
+#pigeon-pooper {
+	background-color: rgb(255,100,100);
 
 }

@@ -42,11 +42,11 @@ myFirepit.addEventListener('click', function(event){
 			for (var i = 0; i < slideArray.length; i++) {
 				slideArray[i].className = slideArray[i].className.replace(' fadeImage', '');
 			}
-		}, 2000);
+		}, 500);
 
 		setTimeout(function(){
 			slideArray[0].className += ' fadeImage';
-		}, 2000);
+		}, 500);
 		
 		console.log("CLIKCED");
 		
