@@ -129,7 +129,8 @@ a: hover {
 .text-container {
 	position: fixed;
 	text-align: center;
-	width: 95vw;
+	width: 80vw;
+	margin-left: 10vw;
 	margin-top: 30vh;
 	color: white;
 	font-size: 30px;

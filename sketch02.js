@@ -73,7 +73,7 @@ function draw() {
     }
     
     // check if poop is alive
-    if(poops[h].position.y > playerSprite.position.y + height/2) {
+    if(poops[h].position.y > playerSprite.position.y + height/4) {
       var poop = poops[h];
      poop.remove();
     }
